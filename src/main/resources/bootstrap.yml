@@ -1,0 +1,15 @@
+spring:
+   application:
+      name: config-server-client
+   profiles:
+      active: development
+   cloud:
+      config:
+         fail-fast: true
+         enabled: true
+         uri: http://localhost:8888
+         username: user
+         password: fd4f0947-9b01-4849-b376-447f9d16ac43
+server:
+   port: 8082
+         
